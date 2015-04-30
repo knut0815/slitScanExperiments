@@ -22,6 +22,17 @@ public:
     ofVideoPlayer player;
     ofImage slitScanImg;
     
+    ofEasyCam cam;
+    ofMesh mesh;
+    int vertexResolution;
+    int numColumnsAdded;
+    
+    ofShader shader;
+    ofFbo firstPass;
+    ofFbo secondPass;
+    
     int videoSliceX;
     int drawPositionX;
+    
+    //ofVideoPlayer grabber;
 };
